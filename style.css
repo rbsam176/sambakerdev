@@ -1,0 +1,124 @@
+.contact-links {
+    color: black;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.contact-links:hover {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+#linkedin:hover {
+    color: blue;
+}
+
+#email:hover {
+    color: #b4772c;
+}
+
+#cv:hover {
+    color: green;
+}
+
+#github:hover {
+    color: silver;
+}
+
+#main {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#mainBody {
+    width: 95vw;
+}
+
+@media only screen and (min-width: 992px) {
+    #mainBody {
+        width: 80vw;
+    }
+}
+
+#logo * {
+    line-height: 0.8em;
+}
+
+.heroBanner {
+    background-color: #F8F1EE;
+    border: 3px solid black;
+    min-height: 600px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.btn-tag {
+    border-radius: 0px;
+    padding: 5px 15px;
+    border: 1px dashed black;
+    color: black;
+    text-decoration: none;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 5px 2px;
+    background-color: #F8F1EE;
+}
+
+.btn-tag:hover {
+    background-color: #ff9f76;
+    color: white;
+}
+
+.btn-main {
+    border-radius: 0px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.btn-main:hover {
+    color: white;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.btn-live {
+    background-color: #F87B46;
+}
+
+.btn-live:hover {
+    background-color: #fa9a70;
+}
+
+.btn-git {
+    background-color: #f8c046;
+}
+
+.btn-git:hover {
+    background-color: #ffd57a;
+}
+
+.readme {
+    color: black;
+}
+
+.readme:hover {
+    color: #91340c;
+}
+
+button.active {
+    background-color: #F87B46;
+    color: white;
+}
